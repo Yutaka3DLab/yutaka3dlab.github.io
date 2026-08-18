@@ -554,7 +554,7 @@
     height: auto;   /* Keeps the image from stretching distortion */
 }
 /* image common */
-.image-component style-1 medium {
+.image-component medium {
     max-width: 50%; /* Change 50% to whatever size you want */
     height: auto;   /* Keeps the image from stretching distortion */
 }
