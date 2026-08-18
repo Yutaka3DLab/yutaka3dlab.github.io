@@ -546,15 +546,15 @@
 /* image2 */
 .image-component instance-2 {
     max-width: 25%; /* Change 50% to whatever size you want */
-    max-height: 25%; /* Keeps the image from stretching distortion */
+    height: auto;   /* Keeps the image from stretching distortion */
 }
 /* image3 */
 .image-component instance-3 {
     max-width: 25%; /* Change 50% to whatever size you want */
-    max-height: 25%; /* Keeps the image from stretching distortion */
+    height: auto;   /* Keeps the image from stretching distortion */
 }
 /* image8 */
 .image-component instance-8 {
     max-width: 25%; /* Change 50% to whatever size you want */
-    max-height: 25%; /* Keeps the image from stretching distortion */
+    height: auto;   /* Keeps the image from stretching distortion */
 }
