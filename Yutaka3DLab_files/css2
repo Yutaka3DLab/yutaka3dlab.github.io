@@ -546,5 +546,5 @@
 /* image */
 .image-component instance-4 {
     max-width: 25%; /* Change 50% to whatever size you want */
-    height: auto;   /* Keeps the image from stretching distortion */
+    max-height: 80%; /* Keeps the image from stretching distortion */
 }
