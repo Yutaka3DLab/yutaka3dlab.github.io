@@ -545,16 +545,16 @@
 } */
 /* image2 */
 .image-component instance-2 medium {
-    max-width: 25%; /* Change 50% to whatever size you want */
-    height: auto;   /* Keeps the image from stretching distortion */
+    max-width: 60%; /* Change 50% to whatever size you want */
+    height: 60%;   /* Keeps the image from stretching distortion */
 }
 /* image3 */
 .image-component instance-3 medium {
-    max-width: 25%; /* Change 50% to whatever size you want */
+    max-width: 60%; /* Change 50% to whatever size you want */
     height: auto;   /* Keeps the image from stretching distortion */
 }
 /* image8 */
 .image-component instance-8 medium {
-    max-width: 25%; /* Change 50% to whatever size you want */
-    height: auto;   /* Keeps the image from stretching distortion */
+    max-width: 60%; /* Change 50% to whatever size you want */
+    height: 60%;   /* Keeps the image from stretching distortion */
 }
