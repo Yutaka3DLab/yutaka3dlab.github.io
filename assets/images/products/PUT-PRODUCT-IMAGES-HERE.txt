@@ -1,0 +1,4 @@
+Required filenames for this starter version:
+- homepod-mini-mount.jpg
+- apple-tv-4k-mount.jpg
+- router-mount.jpg
