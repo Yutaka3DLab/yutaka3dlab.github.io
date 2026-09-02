@@ -525,3 +525,22 @@
     width: 100%;
   }
 }
+
+/* Product video */
+.product-video-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #000;
+}
+
+.purchase-links-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 980px) {
+  .purchase-links-three {
+    grid-template-columns: 1fr;
+  }
+}
