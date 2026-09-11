@@ -544,3 +544,58 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* HomePod Mini product video layouts */
+.video-feature-card,
+.product-video-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.video-feature-card {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.video-feature-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.product-video-card video {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+
+.video-card-copy {
+  padding: 20px 22px 24px;
+}
+
+.video-card-copy h3 {
+  margin: 0;
+  font-size: 1.18rem;
+}
+
+.video-card-copy p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 740px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
